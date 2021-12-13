@@ -18,7 +18,7 @@ export class CreateRegisterController implements IController {
       if (oportunities === null) {
         return badRequest(new NotFoundError('oportunities'));
       }
-      // bling mock
+      // serviço mockado por problemas de integração
       const createOrder = await this.createOrder.execute(oportunities);
       if (!createOrder) {
         return badRequest(new NotFoundError('order'));
