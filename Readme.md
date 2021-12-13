@@ -11,6 +11,12 @@ Crie um .env com referência no .env.example, você pode utilizar a url que deix
   yarn
 ```
 
+## Start
+
+```bash
+  yarn dev
+```
+
 ## Routes
 
 Basepath: `http://localhost:3000/api`.
